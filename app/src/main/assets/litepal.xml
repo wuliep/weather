@@ -1,0 +1,12 @@
+<litepal>
+
+    <!-- 数据库名-->
+    <dbname value = "weather"/>
+    <!--版本号-->
+    <version value = "1"/>
+    <list>
+        <mapping class = "com.example.weather.android.db.Province"/>
+        <mapping class = "com.example.weather.android.db.City"/>
+        <mapping class = "com.example.weather.android.db.County"/>
+    </list>
+</litepal>
