@@ -1,15 +1,9 @@
 package com.example.weather.db;
 
-import org.litepal.exceptions.DataSupportException;
 
-public class Province extends DataSupportException {
-    public Province(String errorMessage) {
-        super(errorMessage);
-    }
+import org.litepal.crud.LitePalSupport;
 
-    public Province(String errorMessage, Throwable throwable) {
-        super(errorMessage, throwable);
-    }
+public class Province extends LitePalSupport {
 
     private int id;
     private String provinceName;
